@@ -68,10 +68,19 @@ main {
 /* Editing Bar */
 
 .mv-bar.mv-ui {
-	top: 95%;
-	position: absolute;
+    position: absolute;
+	top: 95%; right: 1em;
 }
 
 .mv-bar.mv-ui > button {
 	padding-left: 2rem;
+}
+
+.mv-bar.mv-ui .mv-avatar {
+	border-radius: 50%;
+}
+
+[mv-app][mv-mode="edit"] .mv-bar.mv-ui .mv-edit {
+    background: var(--red);
+    box-shadow: none;
 }
