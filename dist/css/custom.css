@@ -44,6 +44,7 @@ main {
     letter-spacing: -0.6vw;
 }
 
+
 /* Mavo Specific */
 
 [property="photo"],
@@ -61,4 +62,16 @@ main {
     object-fit: cover;
     background: #ddd;
     /* background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" stroke="black" stroke-opacity=".3">\a 			<line x2="100" y2="100" /><line x1="100" y2="100" /></svg>'); */
+}
+
+
+/* Editing Bar */
+
+.mv-bar.mv-ui {
+	top: 95%;
+	position: absolute;
+}
+
+.mv-bar.mv-ui > button {
+	padding-left: 2rem;
 }
