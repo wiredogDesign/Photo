@@ -20,6 +20,7 @@ body {
     font-variation-settings: "wdth" 400, "wght" 240;
     font-size: 1em;
     color: var(--black);
+    background: left center/cover no-repeat fixed url("/dist/gfx/cats-are-not-important.jpg");
 }
 
 main {
@@ -50,6 +51,7 @@ main {
 [property="photo"],
 .mv-add-photo {
     flex: 1 0 20%;
+    max-width: 33.3%;
     display: inline-block;
     position: relative;
     margin: 0.3rem;
