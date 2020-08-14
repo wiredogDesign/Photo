@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographs May Not Be Important</title>
+    <link rel="stylesheet" href="dist/css/mavo-min.css">
+    <link rel="stylesheet" href="dist/css/custom-min.css">
+    <script src="dist/js/mavo-min.js"></script>
+</head>
+<body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo">
+    <header class="logo-container">
+        <h1 class="main-header">apropos of nowt</h1>
+    </header>
+    <main>
+    <!-- photos uploaded to wiredogDesign/photo/images -->
+        <a property="photo" typeof="Photo" mv-multiple mv-attribute="none">
+          <img property="image" mv-upload-path="dist/img"/>
+          <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
+        </a>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
