@@ -1,0 +1,9 @@
+{
+	"photo": [
+		{
+			"image": "https://cdn.jsdelivr.net/gh/wiredogDesign/Photo@79bc64ec2672e5a7a817450e3ffe0578286285aa/dist/img/Alex%20Fernsehturm%20Sunset.jpg",
+			"name": "Test 01",
+			"@type": "Photo"
+		}
+	]
+}
