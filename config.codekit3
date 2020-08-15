@@ -42,9 +42,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/css/mavo-min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/dist/fonts/Dosis-VF.ttf": {
@@ -54,6 +54,17 @@
 		"oA": 0,
 		"oAP": "/dist/fonts/Dosis-VF.ttf",
 		"oF": 0
+		},
+	"/dist/gfx/cats-are-not-important.jpg": {
+		"ft": 16384,
+		"iS": 49338,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/gfx/cats-are-not-important.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/dist/gfx/logo_animated.svg": {
 		"ft": 2097152,
@@ -65,16 +76,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/dist/img/Alex Fernsehturm Sunset.jpg": {
-		"ft": 16384,
-		"iS": 151731,
-		"jF": 0,
+	"/dist/js/masonry-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "/dist/img/Alex Fernsehturm Sunset.jpg",
+		"oAP": "/dist/js/masonry-min-min.js",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"sC": 3,
+		"tS": 0
 		},
 	"/dist/js/mavo-min.js": {
 		"bF": 0,
