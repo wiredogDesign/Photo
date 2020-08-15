@@ -1,6 +1,7 @@
 :root {
-    --red: hsl(0, 100%, 33%);
-    --black: hsl(0, 0%, 20%);
+    --red:      hsl(0, 100%, 33%);
+    --black:    hsl(0, 0%, 20%);
+    --white:    hsl(37, 58%, 86%);
 }
 
 @font-face {
@@ -20,29 +21,38 @@ body {
     font-variation-settings: "wdth" 400, "wght" 240;
     font-size: 1em;
     color: var(--black);
-    background: left center/cover no-repeat fixed url("/dist/gfx/cats-are-not-important.jpg");
+}
+
+header {
+    display: flex;
+    height: 85vh;
+    margin-top: -3.5rem; padding: 1em;
+    background: 1em -3.5em / cover no-repeat fixed url("/dist/gfx/cats-are-not-important.jpg");
 }
 
 main {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 1em;
+    min-height: 100vh;
+    padding-top: 5vh;
+    background: var(--white);
 }
 
-.logo-container {
-    display: flex;
-    height: 7vw;
-    background: left center/contain no-repeat url("/dist/gfx/logo_animated.svg");
-}
-
-.logo-container h1 {
-    margin-left: 9vw;
+h1 {
+    padding: 2vw 0 0 3vw;
     font-size: 4vw;
     font-variation-settings: "wght" 800;
     font-style: italic;
     -webkit-text-stroke: 0.1rem var(--black);
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.6vw;
+}
+
+.logo-container {
+    position: sticky;
+    top: 1em;
+    width: 10vw; height: 10vw;
+    background: center/contain no-repeat url("/dist/gfx/logo_animated.svg");
 }
 
 
@@ -69,9 +79,10 @@ main {
 
 /* Editing Bar */
 
-.mv-bar.mv-ui {
-    position: absolute;
-	top: 95%; right: 1em;
+.mv-bar.mv-ui:not(.mv-fixed) {
+    top: 87vh; left: 100%;
+    width: max-content;
+	border-radius: 0;
 }
 
 .mv-bar.mv-ui > button {
