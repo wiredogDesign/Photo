@@ -60,8 +60,8 @@ h1 {
 
 [property="photo"],
 .mv-add-photo {
-    flex: 1 0 20%;
-    max-width: 33.3%;
+    flex: 1 1 auto;
+    /* max-width: 33.3%; */
     display: inline-block;
     position: relative;
     margin: 0.3rem;
@@ -69,8 +69,8 @@ h1 {
 
 [property="photo"] img,
 .mv-add-photo img {
-    display: block;
-    width: 100%; height: 20vh;
+    /* display: block; */
+    width: 100%; height: 44vh;
     object-fit: cover;
     background: #ddd;
     /* background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" stroke="black" stroke-opacity=".3">\a 			<line x2="100" y2="100" /><line x1="100" y2="100" /></svg>'); */

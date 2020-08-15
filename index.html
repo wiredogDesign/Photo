@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="dist/css/mavo-min.css">
     <link rel="stylesheet" href="dist/css/custom-min.css">
     <script src="dist/js/mavo-min.js"></script>
-    <script src="dist/js/masonry-min.js"></script>
 </head>
 <body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo">
     <header>
         <div class="logo-container"></div>
         <h1>apropos of nowt</h1>
     </header>
-    <main class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+    <main>
     <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a property="photo" typeof="Photo" mv-multiple mv-attribute="none" class="grid-item">
+        <a property="photo" typeof="Photo" mv-multiple mv-attribute="none">
           <img property="image" mv-upload-path="dist/img"/>
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
