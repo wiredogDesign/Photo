@@ -54,6 +54,21 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0781.jpg",
 			"name": "gimme shelter",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf4299.jpg",
+			"name": "furniture grafitti",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5783.jpg",
+			"name": "captivated",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5928.jpg",
+			"name": "new guard",
+			"@type": "Photo"
 		}
 	]
 }
