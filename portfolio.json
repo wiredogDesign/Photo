@@ -44,6 +44,16 @@
 			"image": "https://cdn.jsdelivr.net/gh/wiredogDesign/Photo@e9bf305a60fc4add4294bbaf3ad7cc3240dfcb28/dist/img/lcd_0646.jpg",
 			"name": "night moves",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf5526.jpg",
+			"name": "park life",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0781.jpg",
+			"name": "gimme shelter",
+			"@type": "Photo"
 		}
 	]
 }
