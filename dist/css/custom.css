@@ -20,6 +20,7 @@ body {
     font-variation-settings: "wdth" 400, "wght" 240;
     font-size: 1em;
     color: var(--black);
+    background: left center/cover no-repeat fixed url("/dist/gfx/cats-are-not-important.jpg");
 }
 
 main {
@@ -44,11 +45,13 @@ main {
     letter-spacing: -0.6vw;
 }
 
+
 /* Mavo Specific */
 
 [property="photo"],
 .mv-add-photo {
     flex: 1 0 20%;
+    max-width: 33.3%;
     display: inline-block;
     position: relative;
     margin: 0.3rem;
@@ -61,4 +64,25 @@ main {
     object-fit: cover;
     background: #ddd;
     /* background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" stroke="black" stroke-opacity=".3">\a 			<line x2="100" y2="100" /><line x1="100" y2="100" /></svg>'); */
+}
+
+
+/* Editing Bar */
+
+.mv-bar.mv-ui {
+    position: absolute;
+	top: 95%; right: 1em;
+}
+
+.mv-bar.mv-ui > button {
+	padding-left: 2rem;
+}
+
+.mv-bar.mv-ui .mv-avatar {
+	border-radius: 50%;
+}
+
+[mv-app][mv-mode="edit"] .mv-bar.mv-ui .mv-edit {
+    background: var(--red);
+    box-shadow: none;
 }
