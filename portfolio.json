@@ -69,6 +69,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5928.jpg",
 			"name": "new guard",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2912.jpg",
+			"name": "(un)concerned",
+			"@type": "Photo"
 		}
 	]
 }
