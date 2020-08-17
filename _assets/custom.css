@@ -88,13 +88,19 @@ footer {
     /* background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" stroke="black" stroke-opacity=".3">\a 			<line x2="100" y2="100" /><line x1="100" y2="100" /></svg>'); */
 }
 
-/* [property="photo"] img:hover {
-    object-fit: contain;
-} */
+[property="photo"] img {
+    filter: grayscale(1);
+    transition: filter .5s ease;
+}
+
+[property="photo"] img:hover {
+    filter: grayscale(0);
+}
 
 p[property="name"] {
 	font-variation-settings: "wght" 500;
     margin: -6px 0 1px; padding: .1rem 0 .1rem 0.2rem;
+    color: var(--grey-dark);
     background: white;
 }
 
