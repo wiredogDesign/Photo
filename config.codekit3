@@ -37,16 +37,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/dist/css/custom.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dist/css/custom-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/dist/css/mavo-min.css": {
 		"aP": 1,
 		"bl": 0,
