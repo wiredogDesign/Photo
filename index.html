@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="dist/css/custom-min.css">
     <script src="dist/js/mavo-min.js"></script>
 </head>
-<body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo">
+<body mv-app="portfolio" mv-plugins="cropper" mv-storage="https://github.com/wiredogDesign/photo">
     <header>
         <div class="logo-container"></div>
         <h1>apropos of nowt</h1>
@@ -20,8 +20,6 @@
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
     </main>
-    <footer>
-
-    </footer>
+    <footer>quantum entanglement by mavo</footer>
 </body>
 </html>
