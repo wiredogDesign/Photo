@@ -74,6 +74,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2912.jpg",
 			"name": "(un)concerned",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/weiner.jpg",
+			"name": "Weiner",
+			"@type": "Photo"
 		}
 	]
 }
