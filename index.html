@@ -6,6 +6,7 @@
     <title>Photographs May Not Be Important</title>
     <link rel="stylesheet" href="dist/css/mavo-min.css">
     <link rel="stylesheet" href="dist/css/custom-min.css">
+    <link rel="stylesheet" href="dist/css/fancybox-min.css">
     <script src="dist/js/mavo-min.js"></script>
 </head>
 <body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo">
@@ -15,8 +16,8 @@
     </header>
     <main>
     <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a property="photo" typeof="Photo" mv-multiple mv-attribute="none">
-          <img href="[image]" alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
+        <a href="[image]" data-fancybox property="photo" typeof="Photo" mv-multiple mv-attribute="none">
+          <img alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
     </main>
@@ -24,5 +25,6 @@
         <h3>meaningful mechanics by mavo ⦿ wavering willfulness by wiredog</h3>
     </footer>
     <script src="dist/js/jquery-min.js"></script>
+    <script src="dist/js/fancybox-min.js"></script>
 </body>
 </html>
