@@ -17,7 +17,7 @@
     <main>
     <!-- photos uploaded to wiredogDesign/photo/images -->
         <a property="photo" typeof="Photo" mv-multiple mv-attribute="none">
-          <img property="image" mv-upload-path="dist/img"/>
+          <img href="[image]" alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
     </main>
@@ -26,5 +26,11 @@
     </footer>
     <script src="dist/js/jquery-min.js"></script>
     <script src="dist/js/colorbox-min.js"></script>
+    <script>
+        $('img').colorbox({
+            width: "90%",
+            height: "90%"
+        });
+    </script>
 </body>
 </html>
