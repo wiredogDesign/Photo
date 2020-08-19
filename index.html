@@ -27,9 +27,11 @@
     <script src="dist/js/jquery-min.js"></script>
     <script src="dist/js/fancybox-min.js"></script>
     <script>
-        $('[mv-mode="edit"] img').click(function() {
-            $.fancybox.destroy();
-        })
+        const attr = $('body').attr('edit');
+        // attribute exists?
+        if (typeof attr !== 'undefined' && attr !== false) {
+            $.fancybox.close(true);
+        } 
     </script>
 </body>
 </html>

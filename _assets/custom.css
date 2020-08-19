@@ -67,6 +67,11 @@ footer {
     color: var(--grey-dark);
 }
 
+a[data-fancybox] {
+    text-decoration-color: var(--red);
+    background: white;
+}
+
 
 /* Mavo Specific */
 
@@ -99,20 +104,22 @@ footer {
 p[property="name"] {
 	font-variation-settings: "wght" 500;
     margin: -6px 0 1px; padding: .1rem 0 .1rem 0.2rem;
-    color: var(--grey-dark);
-    background: white;
+    color: var(--red);
 }
 
-[mv-app] button.mv-add {
-	background: var(--red);
-	border: none;
-	color: white;
-	font-variation-settings: 'wght' 700;
+[mv-action="add(photo)"] {
+    background: var(--red);
+    min-width: 200px;
+    max-width: 20vh;
+    height: 20vh;
+    border: 0;
+    font-variation-settings: 'wght' 700;
+    color: white;
 }
 
 [mv-mode=edit] img {
     min-height: 40vh;
-    background: center / contain no-repeat url(../../dist/gfx/logo_animated.svg);
+    background: center / contain no-repeat url(../../dist/gfx/placeholder.png);
 }
 
 

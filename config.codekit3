@@ -86,6 +86,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/gfx/placeholder.png": {
+		"ft": 32768,
+		"iS": 15278,
+		"oA": 0,
+		"oAP": "/dist/gfx/placeholder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/img/DSCF3041.jpg": {
 		"ft": 16384,
 		"iS": 313778,
@@ -97,12 +108,34 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/DSCF3108.jpg": {
+		"ft": 16384,
+		"iS": 119511,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF3108.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF3399.jpg": {
 		"ft": 16384,
 		"iS": 236642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/DSCF3399.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF4274.jpg": {
+		"ft": 16384,
+		"iS": 131938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF4274.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -169,6 +202,61 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/DSCF5928.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF7059.jpg": {
+		"ft": 16384,
+		"iS": 101265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF7059.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF8571.jpg": {
+		"ft": 16384,
+		"iS": 74657,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8571.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF8689.jpg": {
+		"ft": 16384,
+		"iS": 129479,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8689.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF8791.jpg": {
+		"ft": 16384,
+		"iS": 223938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8791.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF8878.jpg": {
+		"ft": 16384,
+		"iS": 117946,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8878.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
