@@ -97,6 +97,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/img/Alt-Kladow 20 Maps.jpg": {
+		"ft": 16384,
+		"iS": 99811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/Alt-Kladow 20 Maps.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/Berlin_GMB_1988.jpg": {
+		"ft": 16384,
+		"iS": 352784,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/Berlin_GMB_1988.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF0853.jpg": {
+		"ft": 16384,
+		"iS": 192948,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF0853.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF3041.jpg": {
 		"ft": 16384,
 		"iS": 313778,
@@ -218,6 +251,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/DSCF8445.jpg": {
+		"ft": 16384,
+		"iS": 174468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8445.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF8571.jpg": {
 		"ft": 16384,
 		"iS": 74657,
@@ -334,6 +378,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/lcd_2912.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/qp_13.jpg": {
+		"ft": 16384,
+		"iS": 183155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/qp_13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
