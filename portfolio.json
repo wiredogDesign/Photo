@@ -129,9 +129,6 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/qp_13.jpg",
 			"name": "exercise",
 			"@type": "Photo"
-		},
-		{
-			"@type": "Photo"
 		}
 	]
 }
