@@ -79,6 +79,41 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/weiner.jpg",
 			"name": "about face",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3108.jpg",
+			"name": "meet the parents",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4274.jpg",
+			"name": "artichoke anticipation",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF7059.jpg",
+			"name": "malaga relaxation",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8571.jpg",
+			"name": "virtual airedale",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8689.jpg",
+			"name": "a-frame",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8878.jpg",
+			"name": "fun has stopped",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8791.jpg",
+			"name": "national pride",
+			"@type": "Photo"
 		}
 	]
 }
