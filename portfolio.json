@@ -134,6 +134,51 @@
 			"@type": "Photo",
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8749.jpg",
 			"name": "independent"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF0896.jpg",
+			"name": "do you have something to say?",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4118.jpg",
+			"name": "out of touch with old friend",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4945.jpg",
+			"name": "terrier trinity",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5666.jpg",
+			"name": "kickback",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8566.jpg",
+			"name": "glad in waiting",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0090.jpg",
+			"name": "sporting chance",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_1927.jpg",
+			"name": "false friend",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2224.jpg",
+			"name": "patient and reflective",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2313.jpg",
+			"name": "shower head",
+			"@type": "Photo"
 		}
 	]
 }
