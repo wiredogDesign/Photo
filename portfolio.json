@@ -114,6 +114,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8791.jpg",
 			"name": "national pride",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8445.jpg",
+			"name": "not a dog",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF0853.jpg",
+			"name": "god / dog interaction",
+			"@type": "Photo"
 		}
 	]
 }
