@@ -84,7 +84,7 @@ footer {
     /* needs min-width to work correctly with webkit */
     min-width: 100%; height: 40vh;
     object-fit: cover;
-    background: center/contain no-repeat url(../../dist/gfx/logo_animated.svg), var(--grey-mid);
+    background: var(--grey-mid);
 }
 
 [property="photo"] img {
