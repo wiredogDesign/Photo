@@ -107,12 +107,30 @@
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8878.jpg",
-			"name": "fun has stopped",
+			"name": "has fun stopped ?",
 			"@type": "Photo"
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8791.jpg",
 			"name": "national pride",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8445.jpg",
+			"name": "not a dog",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF0853.jpg",
+			"name": "god / dog interaction",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/qp_13.jpg",
+			"name": "exercise",
+			"@type": "Photo"
+		},
+		{
 			"@type": "Photo"
 		}
 	]
