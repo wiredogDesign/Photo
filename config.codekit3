@@ -563,14 +563,6 @@
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
-		},
-	"/portfolio.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/portfolio-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		}
 	},
 "hooks": [
