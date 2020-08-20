@@ -3,7 +3,7 @@
     --grey-mid: hsl(0, 0%, 60%);
     --grey-dark:hsl(0, 0%, 40%);
     --black:    hsl(0, 0%, 20%);
-    --cream:    hsl(37, 58%, 86%);
+    --cream:    hsl(36, 100%, 97%);
 }
 
 @font-face {
@@ -35,10 +35,10 @@ header {
 main {
     display: flex;
     flex-flow: row wrap;
-    gap: .4rem;
+    gap: .2rem .4rem;
     min-height: 100vh;
     padding-top: .4rem;
-    background: var(--grey-mid);
+    background: white;
 }
 
 h1 {
@@ -69,7 +69,9 @@ footer {
 
 a[data-fancybox] {
     text-decoration-color: var(--red);
-    background: white;
+    /* border: .3rem solid white; */
+    /* background: white; */
+    overflow: hidden;
 }
 
 
@@ -79,7 +81,7 @@ a[data-fancybox] {
 [property="photo"],
 .mv-add-photo {
     flex: 1 1 auto;
-    /* max-width: 33.3%; */
+    max-width: 50vw;
     display: inline-block;
     position: relative;
 }
@@ -102,9 +104,18 @@ a[data-fancybox] {
 }
 
 p[property="name"] {
-	font-variation-settings: "wght" 500;
-    margin: -6px 0 1px; padding: .1rem 0 .1rem 0.2rem;
+    position: absolute;
+    bottom: -10rem;
+    width: 100%;
+    margin: -5px 0 1px; padding-left: 0.3rem;
+    font-variation-settings: "wght" 500;
+    background: white;
     color: var(--red);
+    transition: bottom .3s ease-in-out;
+}
+
+a:hover > p[property="name"] {
+    bottom: 0;
 }
 
 [mv-action="add(photo)"] {

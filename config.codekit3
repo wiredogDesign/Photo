@@ -27,6 +27,17 @@
 		"oF": 2,
 		"oS": 3
 		},
+	"/_assets/mavo-gist.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/mavo-gist-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dist/css/custom-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -97,34 +108,23 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/dist/img/Alt-Kladow 20 Maps.jpg": {
-		"ft": 16384,
-		"iS": 99811,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/Alt-Kladow 20 Maps.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/dist/img/Berlin_GMB_1988.jpg": {
-		"ft": 16384,
-		"iS": 352784,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/img/Berlin_GMB_1988.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/dist/img/DSCF0853.jpg": {
 		"ft": 16384,
 		"iS": 192948,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/DSCF0853.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF0896.jpg": {
+		"ft": 16384,
+		"iS": 120527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF0896.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -163,6 +163,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/DSCF4118.jpg": {
+		"ft": 16384,
+		"iS": 131165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF4118.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF4274.jpg": {
 		"ft": 16384,
 		"iS": 131938,
@@ -180,6 +191,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/dscf4299.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF4945.jpg": {
+		"ft": 16384,
+		"iS": 178130,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF4945.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -213,6 +235,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/dscf5526.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/DSCF5666.jpg": {
+		"ft": 16384,
+		"iS": 310568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF5666.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -262,6 +295,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/DSCF8566.jpg": {
+		"ft": 16384,
+		"iS": 56578,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8566.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF8571.jpg": {
 		"ft": 16384,
 		"iS": 74657,
@@ -284,6 +328,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/img/DSCF8749.jpg": {
+		"ft": 16384,
+		"iS": 284826,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/DSCF8749.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/img/DSCF8791.jpg": {
 		"ft": 16384,
 		"iS": 223938,
@@ -301,6 +356,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/DSCF8878.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/lcd_0090.jpg": {
+		"ft": 16384,
+		"iS": 100589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/lcd_0090.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -356,6 +422,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/lcd_1470.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/lcd_1927.jpg": {
+		"ft": 16384,
+		"iS": 95239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/lcd_1927.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/lcd_2224.jpg": {
+		"ft": 16384,
+		"iS": 117043,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/lcd_2224.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/img/lcd_2313.jpg": {
+		"ft": 16384,
+		"iS": 195710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/lcd_2313.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
