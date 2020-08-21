@@ -77,11 +77,6 @@ footer {
     color: var(--grey-dark);
 }
 
-a[data-fancybox] {
-    text-decoration-color: var(--red);
-    overflow: hidden;
-}
-
 
 /* Mavo Specific */
 
@@ -110,6 +105,11 @@ a[data-fancybox] {
 
 [property="photo"] img:hover {
     filter: grayscale(0);
+}
+
+a[property="photo"] {
+    /* text-decoration-color: var(--red); */
+    overflow: hidden;
 }
 
 p[property="name"] {
@@ -165,4 +165,36 @@ a:hover > p[property="name"] {
 [mv-app][mv-mode="edit"] .mv-bar.mv-ui .mv-edit {
     background: var(--red);
     box-shadow: none;
+}
+
+.mv-popup {
+    font: 1em Dosis, sans-serif;
+}
+
+.mv-item-bar.mv-ui {
+    bottom: .5rem;
+}
+
+@media screen and (max-width: 870px) {
+
+    [property="photo"], .mv-add-photo {
+        flex: 1 1 auto;
+        max-width: 100vw;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: 37vh;
+        background-position: 0 0;
+        background-size: contain;
+    }
+
+    [property="photo"], .mv-add-photo {
+        flex: 1 1 100vw;
+        max-width: 100vw;
+        position: relative;
+    }
 }

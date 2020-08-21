@@ -14,9 +14,9 @@
         <div class="logo-container"></div>
         <h1>apropos of nowt</h1>
     </header>
-    <main>
+    <main class="gallery">
     <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a href="[image]" data-fancybox property="photo" typeof="Photo" mv-multiple mv-attribute="none">
+        <a href="[image]" property="photo" typeof="Photo" mv-multiple mv-attribute="none">
           <img alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
@@ -24,8 +24,15 @@
     <footer>
         <h3>meaningful mechanics by mavo ⦿ wavering willfulness by wiredog</h3>
     </footer>
-    <script defer src="dist/js/jquery-min.js"></script>
-    <script defer src="dist/js/fancybox-min.js"></script>
+    <script  src="dist/js/jquery-min.js"></script>
+    <script  src="dist/js/fancybox-min.js"></script>
+    <script>
+        // Init fancybox
+        $().fancybox({
+            selector : '.gallery a' 
+        });
+
+    </script>
     <script>
         const attr = $('body').attr('edit');
         // attribute exists?
