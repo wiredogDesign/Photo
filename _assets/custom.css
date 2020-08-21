@@ -6,6 +6,12 @@
     --cream:    hsl(36, 100%, 97%);
 }
 
+@keyframes turnhead {
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
 @font-face {
     font-family: "Dosis";
     src: url("../../dist/fonts/Dosis-VF.ttf");
@@ -42,6 +48,15 @@ main {
     background: white;
 }
 
+.logo-container {
+    position: sticky;
+    top: 1em;
+    width: 10vw; 
+    height: 10vw;
+    background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
+    animation: turnhead .4s cubic-bezier(.68,-0.55,.27,1.55) 5s 1 forwards;
+}
+
 h1 {
     padding: 2vw 0 0 3vw;
     font-size: 4vw;
@@ -50,14 +65,6 @@ h1 {
     -webkit-text-stroke: 0.06rem var(--black);
     -webkit-text-fill-color: transparent;
     letter-spacing: -0.6vw;
-}
-
-.logo-container {
-    position: sticky;
-    top: 1em;
-    width: 10vw; 
-    height: 10vw;
-    background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
 }
 
 footer {
