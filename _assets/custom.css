@@ -36,6 +36,7 @@ main {
     flex-flow: row wrap;
     gap: .2rem .4rem;
     min-height: 100vh;
+    margin: 0 0.4rem;
     padding-top: .4rem;
     background: white;
 }
@@ -111,12 +112,13 @@ p[property="name"] {
     padding-left: 0.3rem;
     font-variation-settings: "wght" 500;
     background: white;
-    color: var(--red);
-    transition: bottom .3s ease-in-out;
+    color: white;
+    transition: bottom 0.4s ease-in-out, color 0.75s ease-in-out
 }
 
 a:hover > p[property="name"] {
     bottom: 0;
+    color: var(--black);
 }
 
 [mv-action="add(photo)"] {

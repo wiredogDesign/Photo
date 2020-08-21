@@ -108,6 +108,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/gfx/svg_paper.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/gfx/svg_paper.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dist/img/DSCF0853.jpg": {
 		"ft": 16384,
 		"iS": 192948,
