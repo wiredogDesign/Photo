@@ -117,7 +117,7 @@ p[property="name"] {
     bottom: -10rem;
     width: 100%;
     margin: -5px 0 1px; 
-    padding-left: 0.3rem;
+    /* padding-left: 0.3rem; */
     font-variation-settings: "wght" 500;
     background: white;
     color: white;
