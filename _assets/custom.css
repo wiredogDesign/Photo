@@ -139,9 +139,12 @@ a:hover > p[property="name"] {
     font-variation-settings: 'wght' 700;
 }
 
-[mv-mode=edit] img {
-    min-height: 40vh;
-    background: center / contain no-repeat url(../../dist/gfx/placeholder.png);
+[mv-app] [mv-mode=edit] img.mv-empty {
+    width: 20vh;
+    padding: 0 0.5em;
+    content: url(../../dist/gfx/placeholder.png);
+    object-fit: contain;
+    opacity: 1;
 }
 
 
@@ -173,6 +176,31 @@ a:hover > p[property="name"] {
 
 .mv-item-bar.mv-ui {
     bottom: .5rem;
+}
+
+.mv-message {
+    background: var(--red);
+    color: white;
+}
+
+.mv-message.mv-deleted button:not([class]) {
+    margin: 0 2em 0 1em;
+}
+
+.mv-message button:not([class]) {
+    padding: .7em 0 .5em 0;
+}
+
+.mv-message .mv-close {
+    background: var(--red);
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    float: none;
+}
+
+[property][mv-mode=edit]:not([typeof]):not([mv-group]) textarea.mv-editor {
+    background: white;
 }
 
 @media screen and (max-width: 870px) {
