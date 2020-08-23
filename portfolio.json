@@ -179,11 +179,6 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2313.jpg",
 			"name": "shower head",
 			"@type": "Photo"
-		},
-		{
-			"image": "https://wiredogdesign.github.io/Photo/dist/img/iphone_yuko_legs.jpg",
-			"name": "Iphone yuko legs",
-			"@type": "Photo"
 		}
 	]
 }
