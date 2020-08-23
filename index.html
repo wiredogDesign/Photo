@@ -33,12 +33,14 @@
         });
 
     </script>
-    <script>
-        const attr = $('body').attr('edit');
+    <!-- <script>
+        const attr = $('body').attr('mv-mode');
         // attribute exists?
-        if (typeof attr !== 'undefined' && attr !== false) {
-            $.fancybox.close(true);
-        } 
-    </script>
+        if (attr !== 'undefined' && attr !== false) {
+            $.fancybox.stop();
+        } else {
+            $().fancybox;
+        }
+    </script> -->
 </body>
 </html>
