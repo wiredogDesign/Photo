@@ -135,11 +135,11 @@ a:hover > p[property="name"] {
     max-width: 20vh;
     height: 20vh;
     border: 0;
-    background: var(--red);
+    background: -50px 57px / contain no-repeat url(../../dist/gfx/dt-head.svg), var(--red);
     color: white;
     font-variation-settings: 'wght' 700;
 }
-
+ 
 [mv-app] [mv-mode=edit] img.mv-empty {
     width: 20vh;
     padding: 0 0.5em;
