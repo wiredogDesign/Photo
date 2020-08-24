@@ -40,6 +40,7 @@ header {
 }
 
 main {
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     gap: .2rem .4rem;
@@ -47,6 +48,17 @@ main {
     margin: 0 0.4rem;
     padding-top: .4rem;
     background: white;
+}
+
+main:after {
+    content: '';
+    width: 100vw;
+    height: 20vh;
+    background: white;
+    position: absolute;
+    top: -20vh;
+    left: -0.4rem;
+    clip-path: polygon(0 100%, 100% 65%, 100% 100%);
 }
 
 .logo-container {
