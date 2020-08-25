@@ -254,6 +254,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2394.jpg",
 			"name": "untitled disney encounter",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSC_0024.jpg",
+			"name": "sheltered from the end",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3599.jpg",
+			"name": "wrong water bike",
+			"@type": "Photo"
 		}
 	]
 }
