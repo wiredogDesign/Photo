@@ -219,6 +219,21 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF1096.jpg",
 			"name": "heartstrings",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/demolition_triptych_30x20.jpg",
+			"name": "demolition triptych",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6643-Edit.jpg",
+			"name": "last chance gone",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF1589.jpg",
+			"name": "fought the power",
+			"@type": "Photo"
 		}
 	]
 }
