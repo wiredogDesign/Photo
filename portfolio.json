@@ -259,6 +259,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3599.jpg",
 			"name": "wrong water bike",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/thomas_pulled_the_strings.jpg",
+			"name": "Thomas pulled the strings",
+			"@type": "Photo"
 		}
 	]
 }
