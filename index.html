@@ -16,7 +16,7 @@
     </header>
     <main class="gallery">
     <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a href="[image]" property="photo" typeof="Photo" mv-multiple mv-attribute="none">
+        <a href="[image]" data-fancybox="gallery" property="photo" typeof="Photo" mv-multiple mv-attribute="none">
           <img alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
           <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
         </a>
@@ -26,19 +26,20 @@
     </footer>
     <script  src="dist/js/jquery-min.js"></script>
     <script  src="dist/js/fancybox-min.js"></script>
+    
     <script>
-        // Init fancybox
-        $().fancybox({
-            selector : '.gallery a' 
-        });
+        $(this).click(function() {
+            // this bit works ok in console
+            if($('body').attr('mv-mode') == 'edit') {
+                // alert('edit mode')
+                $.fancybox.destroy()
+            } 
+        })
 
-    </script>
-    <script>
-        const attr = $('body').attr('mv-mode');
-        // attribute exists?
-        if (attr !== 'undefined' && attr !== false) {
-            $.fancybox.close(true);
-        }
+        if($('body').attr('mv-mode') == 'edit') {
+                alert('edit mode')
+                
+            } 
     </script>
 </body>
 </html>
