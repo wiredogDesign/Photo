@@ -199,6 +199,26 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5269.jpg",
 			"name": "... though more diverse apart",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf7566.jpg",
+			"name": "unexpected items",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5393.jpg",
+			"name": "expected reaction",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8714.jpg",
+			"name": "together at any cost",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF1096.jpg",
+			"name": "heartstrings",
+			"@type": "Photo"
 		}
 	]
 }
