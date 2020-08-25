@@ -179,6 +179,26 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2313.jpg",
 			"name": "shower head",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4342.jpg",
+			"name": "big band",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2459.jpg",
+			"name": "reunited 2011",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf5156.jpg",
+			"name": "for better or worse",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5269.jpg",
+			"name": "... though more diverse apart",
+			"@type": "Photo"
 		}
 	]
 }
