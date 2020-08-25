@@ -234,6 +234,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF1589.jpg",
 			"name": "fought the power",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8197.jpg",
+			"name": "we loved our time here",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF2386.jpg",
+			"name": "we loved our time here too",
+			"@type": "Photo"
 		}
 	]
 }
