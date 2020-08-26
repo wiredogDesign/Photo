@@ -242,6 +242,12 @@ a:hover > p[property="name"] {
     background: orangered;
 }
 
+/* fancybox */
+
+.fancybox-caption__body {
+    font-size: 170%;
+}
+
 @media screen and (max-width: 870px) {
 
     [property="photo"], .mv-add-photo {
