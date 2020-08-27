@@ -237,7 +237,7 @@
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8197.jpg",
-			"name": "we loved our time here",
+			"name": "we used to be happy here",
 			"@type": "Photo"
 		},
 		{
@@ -263,6 +263,16 @@
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/thomas_pulled_the_strings.jpg",
 			"name": "thomas pulled the strings",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6743.jpg",
+			"name": "homeless 1",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4528.jpg",
+			"name": "homeless 2",
 			"@type": "Photo"
 		}
 	]
