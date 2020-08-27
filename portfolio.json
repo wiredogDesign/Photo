@@ -274,6 +274,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4528.jpg",
 			"name": "homeless 2",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3446.jpg",
+			"name": "small embraces",
+			"@type": "Photo"
 		}
 	]
 }
