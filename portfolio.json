@@ -328,6 +328,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4635-Edit.jpg",
 			"name": "untitled demonstration",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3791.jpg",
+			"name": "now is not the time for song",
+			"@type": "Photo"
 		}
 	]
 }
