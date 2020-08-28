@@ -237,7 +237,7 @@
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8197.jpg",
-			"name": "we loved our time here",
+			"name": "we used to be happy here",
 			"@type": "Photo"
 		},
 		{
@@ -263,6 +263,111 @@
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/thomas_pulled_the_strings.jpg",
 			"name": "thomas pulled the strings",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6743.jpg",
+			"name": "homeless 1",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4528.jpg",
+			"name": "homeless 2",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3446.jpg",
+			"name": "small embraces",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3651.jpg",
+			"@type": "Photo",
+			"name": "DSCF3651"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5245.jpg",
+			"name": "granny green",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5346.jpg",
+			"name": "make an impression",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5448.jpg",
+			"name": "favourite music",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4368.jpg",
+			"name": "toxic waters",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3710.jpg",
+			"name": "blue-eyed boy",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf4399.jpg",
+			"name": "water feature",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4724.jpg",
+			"name": "sunset over govan",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8147.jpg",
+			"name": "un-constitutional tattoo",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4635-Edit.jpg",
+			"name": "untitled demonstration",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3791.jpg",
+			"name": "now is not the time for song",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6168.jpg",
+			"name": "... or dancing",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6166-Edit.jpg",
+			"name": "... but standing still?",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf8084.jpg",
+			"name": "cool and warm in santa luzia",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf4567.jpg",
+			"name": "east coast sunset",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6336.jpg",
+			"name": "self-titled",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF7000.jpg",
+			"name": "peaceful",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4879.jpg",
+			"name": "we will have to leave soon",
 			"@type": "Photo"
 		}
 	]
