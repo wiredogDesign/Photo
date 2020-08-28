@@ -298,6 +298,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5448.jpg",
 			"name": "favourite music",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4368.jpg",
+			"name": "toxic waters",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3710.jpg",
+			"name": "blue-eyed boy",
+			"@type": "Photo"
 		}
 	]
 }
