@@ -333,6 +333,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3791.jpg",
 			"name": "now is not the time for song",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6168.jpg",
+			"name": "... or dancing",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6166-Edit.jpg",
+			"name": "... but standing still?",
+			"@type": "Photo"
 		}
 	]
 }
