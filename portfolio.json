@@ -318,6 +318,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4724.jpg",
 			"name": "sunset over govan",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF8147.jpg",
+			"name": "un-constitutional tattoo",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4635-Edit.jpg",
+			"name": "untitled demonstration",
+			"@type": "Photo"
 		}
 	]
 }
