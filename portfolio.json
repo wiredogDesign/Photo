@@ -279,6 +279,25 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3446.jpg",
 			"name": "small embraces",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3651.jpg",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5245.jpg",
+			"name": "granny green",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5346.jpg",
+			"name": "make an impression",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5448.jpg",
+			"name": "favourite music",
+			"@type": "Photo"
 		}
 	]
 }
