@@ -282,7 +282,8 @@
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3651.jpg",
-			"@type": "Photo"
+			"@type": "Photo",
+			"name": "DSCF3651"
 		},
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF5245.jpg",
@@ -357,6 +358,16 @@
 		{
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6336.jpg",
 			"name": "self-titled",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF7043.jpg",
+			"name": "peaceful",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4879.jpg",
+			"name": "we will have to leave soon",
 			"@type": "Photo"
 		}
 	]
