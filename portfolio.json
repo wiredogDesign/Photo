@@ -343,6 +343,21 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6166-Edit.jpg",
 			"name": "... but standing still?",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf8084.jpg",
+			"name": "cool and warm in santa luzia",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf4567.jpg",
+			"name": "east coast sunset",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF6336.jpg",
+			"name": "self-titled",
+			"@type": "Photo"
 		}
 	]
 }
