@@ -308,6 +308,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF3710.jpg",
 			"name": "blue-eyed boy",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/dscf4399.jpg",
+			"name": "water feature",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF4724.jpg",
+			"name": "sunset over govan",
+			"@type": "Photo"
 		}
 	]
 }
