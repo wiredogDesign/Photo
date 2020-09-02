@@ -130,6 +130,7 @@ footer {
 a[property="photo"] {
     /* text-decoration-color: var(--red); */
     overflow: hidden;
+    cursor: zoom-in;
 }
 
 p[property="name"] {
