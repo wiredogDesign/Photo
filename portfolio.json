@@ -374,6 +374,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/berlin%201988%2001.jpg",
 			"name": "Untitled Berlin/Glasgow Crossover",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0313.jpg",
+			"name": "cross-border",
+			"@type": "Photo"
 		}
 	]
 }
