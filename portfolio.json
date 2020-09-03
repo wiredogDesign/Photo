@@ -399,6 +399,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0039.jpg",
 			"name": "unwell",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2945.jpg",
+			"name": "no hiding place",
+			"@type": "Photo"
 		}
 	]
 }
