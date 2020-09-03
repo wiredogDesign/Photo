@@ -384,6 +384,16 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0257.jpg",
 			"name": "laughing gas",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0206.jpg",
+			"name": "more pretty things",
+			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0194-Edit.jpg",
+			"name": "self-titled window",
+			"@type": "Photo"
 		}
 	]
 }
