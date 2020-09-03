@@ -404,6 +404,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_2945.jpg",
 			"name": "no hiding place",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF2644.jpg",
+			"name": "some peace now",
+			"@type": "Photo"
 		}
 	]
 }
