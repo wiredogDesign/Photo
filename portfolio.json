@@ -394,6 +394,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0194-Edit.jpg",
 			"name": "self-titled window",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/lcd_0039.jpg",
+			"name": "unwell",
+			"@type": "Photo"
 		}
 	]
 }
