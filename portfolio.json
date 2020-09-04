@@ -409,6 +409,11 @@
 			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF2644.jpg",
 			"name": "some peace now",
 			"@type": "Photo"
+		},
+		{
+			"image": "https://wiredogdesign.github.io/Photo/dist/img/DSCF9289.jpg",
+			"name": "soor",
+			"@type": "Photo"
 		}
 	]
 }
