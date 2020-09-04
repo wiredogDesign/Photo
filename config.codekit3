@@ -87,16 +87,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/dist/gfx/dt-head.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/gfx/dt-head.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/dist/gfx/logo_animated.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -164,43 +154,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/test_common.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/test_common-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/test_native.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/test_native.html",
-		"oF": 0
-		},
-	"/test_yall.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/test_yall.html",
-		"oF": 0
-		},
-	"/test_yall.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/test_yall-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		}
 	},
 "hooks": [
