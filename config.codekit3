@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/dist/css/custom-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -86,16 +94,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/dist/gfx/dt-head.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/gfx/dt-head.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/dist/gfx/logo_animated.svg": {
 		"ft": 2097152,
@@ -156,14 +154,6 @@
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
-		},
-	"/portfolio.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/portfolio-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		}
 	},
 "hooks": [
