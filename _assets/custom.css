@@ -55,7 +55,7 @@ main {
 main:after {
     content: '';
     width: 100vw;
-    height: 20vh;
+    height: calc(20vh + 1px);
     background: white;
     position: absolute;
     top: -20vh;
