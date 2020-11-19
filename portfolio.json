@@ -21,11 +21,6 @@
 			"@type": "Photo"
 		},
 		{
-			"image": "https://cdn.jsdelivr.net/gh/wiredogDesign/Photo@3c019bbc1cd7b504cfe5f066a3a7d57f41a99b6c/dist/img/DSCF5417.jpg",
-			"name": "brown-eyed girl",
-			"@type": "Photo"
-		},
-		{
 			"image": "https://cdn.jsdelivr.net/gh/wiredogDesign/Photo@fc4842f3b100a1bf71ee2a73d68414d097d93356/dist/img/lcd_0437.jpg",
 			"name": "kindness",
 			"@type": "Photo"
@@ -169,7 +164,12 @@
 			"image": "https://wiredogdesign.github.io/photo/dist/img/lcd_2313.jpg",
 			"name": "shower head",
 			"@type": "Photo"
-		},	
+		},
+		{
+			"image": "https://cdn.jsdelivr.net/gh/wiredogDesign/Photo@3c019bbc1cd7b504cfe5f066a3a7d57f41a99b6c/dist/img/DSCF5417.jpg",
+			"name": "brown-eyed girl",
+			"@type": "Photo"
+		},
 		{
 			"image": "https://wiredogdesign.github.io/photo/dist/img/DSCF3710.jpg",
 			"name": "blue-eyed boy",
