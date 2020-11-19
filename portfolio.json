@@ -121,11 +121,6 @@
 			"@type": "Photo"
 		},
 		{
-			"image": "https://wiredogdesign.github.io/photo/dist/img/DSCF0853.jpg",
-			"name": "untitled skateboard/dog/horse",
-			"@type": "Photo"
-		},
-		{
 			"image": "https://wiredogdesign.github.io/photo/dist/img/qp_13.jpg",
 			"name": "exercise",
 			"@type": "Photo"
