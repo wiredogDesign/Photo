@@ -114,7 +114,7 @@ footer {
 .mv-add-photo img {
     /* needs min-width to work correctly with webkit */
     min-width: 100%;
-    height: 40vh;
+    height: 25vh;
     object-fit: cover;
     background: var(--grey-mid);
 }
