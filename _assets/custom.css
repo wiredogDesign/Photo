@@ -74,12 +74,12 @@ main:after {
 
 h1 {
     padding: 2vw 0 0 3vw;
-    font-size: 4vw;
+    font-size: 6vw;
     font-variation-settings: "wght" 800;
     font-style: italic;
     -webkit-text-stroke: 0.06rem var(--black);
     -webkit-text-fill-color: transparent;
-    letter-spacing: -0.5vw;
+    letter-spacing: -0.9vw;
 }
 
 h1 span {
