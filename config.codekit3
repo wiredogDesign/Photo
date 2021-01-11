@@ -61,9 +61,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/css/fancybox-min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/dist/css/mavo-min.css": {
@@ -71,9 +71,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/css/mavo-min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/dist/fonts/Dosis-VF.ttf": {
