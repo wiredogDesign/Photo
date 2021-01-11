@@ -38,7 +38,7 @@ header {
     height: 66vw;
     margin-top: -3.5rem;
     padding: 1em;
-    background: 0 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
+    background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
 }
 
 main {
