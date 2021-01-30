@@ -27,15 +27,15 @@
 		"oF": 2,
 		"oS": 3
 		},
-	"/_assets/mavo-gist.js": {
+	"/_assets/custom.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/_assets/mavo-gist-min.js",
-		"oF": 0,
-		"sC": 3,
+		"oAP": "/dist/js/custom-min.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"/CNAME": {
@@ -129,6 +129,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/dist/gfx/test_loader.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/gfx/test_loader.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/img": {
 		"ft": 65536,

@@ -36,17 +36,43 @@ body {
 header {
     display: flex;
     height: 66vw;
-    margin-top: -3.5rem;
+    /* margin-top: -3.5rem; */
     padding: 1em;
     background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
 }
+
+.logo-container {
+    position: sticky;
+    top: 1em;
+    width: 10vw; 
+    height: 10vw;
+    background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
+    animation: turnhead .4s cubic-bezier(.68,-0.55,.27,1.55) 5s 1 forwards;
+}
+
+h1 {
+    padding: 1vw 0 0 3vw;
+    font-size: 6vw;
+    font-variation-settings: "wght" 800;
+    font-style: italic;
+    -webkit-text-stroke: 0.06rem var(--black);
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.9vw;
+}
+
+h1 span {
+    letter-spacing: 0;
+    font-size: 97%;
+    -webkit-text-stroke-color: var(--red);
+}
+
 
 main {
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    gap: .2rem .4rem;
-    min-height: 100vh;
+    gap: 0 .3rem;
+    /* min-height: 100vh; */
     margin: 0 0.4rem;
     padding-top: .4rem;
     background: white;
@@ -63,78 +89,26 @@ main:after {
     clip-path: polygon(0 100%, 100% 77%, 100% 100%);
 }
 
-.logo-container {
-    position: sticky;
-    top: 1em;
-    width: 10vw; 
-    height: 10vw;
-    background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
-    animation: turnhead .4s cubic-bezier(.68,-0.55,.27,1.55) 5s 1 forwards;
-}
-
-h1 {
-    padding: 2vw 0 0 3vw;
-    font-size: 6vw;
-    font-variation-settings: "wght" 800;
-    font-style: italic;
-    -webkit-text-stroke: 0.06rem var(--black);
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -0.9vw;
-}
-
-h1 span {
-    letter-spacing: 0;
-    font-size: 97%;
-    -webkit-text-stroke-color: var(--red);
-}
-
-footer {
-    display: flex;
-	justify-content: center;
-    align-items: center;
-    height: 4.35rem;
-    margin-top: .2rem;
-	background: var(--grey-mid);
-    color: var(--grey-dark);
-}
-
-
-/* Mavo Specific */
-
-/* flex container for images */
-[property="photo"],
-.mv-add-photo {
-    flex: 1 1 auto;
-    max-width: 50vw;
-    display: inline-block;
-    position: relative;
-}
-
-[property="photo"] img,
-.mv-add-photo img {
+img {
     /* needs min-width to work correctly with webkit */
     min-width: 100%;
     height: 25vh;
     object-fit: cover;
     background: var(--grey-mid);
-}
-
-[property="photo"] img {
     filter: grayscale(1);
     transition: filter .5s ease;
 }
 
-[property="photo"] img:hover {
+img:hover {
     filter: grayscale(0);
 }
 
-a[property="photo"] {
-    /* text-decoration-color: var(--red); */
-    overflow: hidden;
+.main-image {
+    flex: 1 1 auto;
     cursor: zoom-in;
 }
 
-p[property="name"] {
+p {
     position: absolute;
     bottom: -10rem;
     width: 100%;
@@ -147,109 +121,19 @@ p[property="name"] {
     transition: bottom 0.4s ease-in-out, color 0.75s ease-in-out
 }
 
-a:hover > p[property="name"] {
+a:hover > p {
     bottom: 0;
     color: var(--black);
 }
 
-[mv-action="add(photo)"] {
-    min-width: 200px;
-    max-width: 20vh;
-    height: 20vh;
-    border: 0;
-    background: var(--red);
-    color: white;
-    font-variation-settings: 'wght' 700;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 75%);
-}
- 
-[mv-app] [mv-mode=edit] img.mv-empty {
-    width: 20vh;
-    padding: 0 0.5em;
-    content: url(../../dist/gfx/placeholder.png);
-    object-fit: contain;
-    opacity: 1;
-}
-
-
-/* Editing Bar */
-
-.mv-status {
-    display: none;
-}
-
-.mv-bar.mv-ui:not(.mv-fixed) {
-    top: 100%; 
-    left: 100%;
-    width: max-content;
-	border-radius: 0;
-}
-
-.mv-bar.mv-ui > button {
-	padding-left: 2rem;
-}
-
-.mv-bar.mv-ui .mv-avatar {
-	border-radius: 50%;
-}
-
-[mv-app][mv-mode="edit"] .mv-bar.mv-ui .mv-edit {
-    background: var(--red);
-    box-shadow: none;
-}
-
-.mv-popup {
-    font: 1em Dosis, sans-serif;
-}
-
-.mv-item-bar.mv-ui {
-    bottom: .5rem;
-}
-
-/* .mv-message {
-    background: var(--red);
-    color: white;
-    position: sticky !important;
-    top: 100%;
-    left: 0;
-} */
-
-.mv-message.mv-deleted {
-    display: none;
-    /* position: sticky !important;
-	top: 100% !important;
-	left: 0% !important;
-	width: 13em;
-	margin-left: 130px;
-    margin-bottom: 0.5em;
-    border-radius: 0;
-	background: var(--red);
-	color: white; */
-}
-
-.mv-message.mv-deleted button:not([class]) {
-    margin: 0 2em 0 1em;
-}
-
-.mv-message button:not([class]) {
-    padding: .7em .3em .5em;
-}
-
-.mv-message .mv-close {
-    background: var(--red);
-    position: absolute;
-    top: .5em;
-    right: .5em;
-    float: none;
-}
-
-[property][mv-mode=edit]:not([typeof]):not([mv-group]) textarea.mv-editor {
-    background: white;
-}
-
-[property][mv-mode=edit]:not([typeof]):not([mv-group]):not(input):not(select):not(textarea):hover {
-    box-shadow: none;
-    background: orangered;
+footer {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    height: 4.35rem;
+    margin-top: .2rem;
+	background: var(--grey-mid);
+    color: var(--grey-dark);
 }
 
 /* fancybox */

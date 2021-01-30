@@ -4,37 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>These Photographs Are Not Important</title>
-    <link rel="stylesheet" href="dist/css/mavo-min.css">
     <link rel="stylesheet" href="dist/css/custom-min.css">
     <link rel="stylesheet" href="dist/css/fancybox-min.css">
-    <script src="dist/js/mavo-min.js"></script>
 </head>
-<body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo/blob/colorbox">
+<body>
     <header>
         <div class="logo-container"></div>
-        <h1><span>[count(photo)]</span>&nbsp; snaps apropos of nowt</h1>
+        <h1><span class="image-counter"></span>&nbsp; snaps apropos of nowt</h1>
     </header>
     <main class="gallery">
-    <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a href=[image] data-fancybox="gallery" data-caption="[name]" property="photo" typeof="Photo" mv-multiple mv-attribute="none">
-          <img alt="[name]" title="[name]" property="image" mv-upload-path="dist/img"/>
-          <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
+        <a class="main-image" href="dist/img/large/DSCF0896.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF0896.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF3041.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF3041.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF3108.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF3108.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF3399.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF3399.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF3710.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF3710.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF4118.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF4118.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF4274.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF4274.jpg" alt="" title=""/>
+          <p></p>
+        </a>
+
+        <a class="main-image" href="dist/img/large/DSCF4299.jpg" data-fancybox="gallery" data-caption="goddog confusion ">
+          <img src="dist/img/small/DSCF4299.jpg" alt="" title=""/>
+          <p></p>
         </a>
     </main>
     <footer>
-        <h3>meaningful mechanics by mavo ⦿ wavering willfulness by wiredog</h3>
+        <h3>global generosity by github ⦿ wavering willfulness by wiredog</h3>
     </footer>
     <script  src="dist/js/jquery-min.js"></script>
-    <script  src="dist/js/fancybox-min.js"></script>
-    
-    <script>
-        $(this).click(function() {
-            // this bit works ok in console
-            if($('body').attr('mv-mode') == 'edit') {
-                // alert('edit mode')
-                $.fancybox.destroy()
-            } 
-        })
-    </script>
+    <script src="dist/js/fancybox-min.js"></script>
+    <script src="dist/js/custom-min.js"></script>
 </body>
 </html>
