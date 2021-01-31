@@ -9,7 +9,7 @@
 
 @keyframes turnhead {
     100% {
-        transform: rotate(45deg);
+        transform: rotate(0);
     }
 }
 
@@ -47,6 +47,7 @@ header {
     width: 10vw; 
     height: 10vw;
     background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
+    transform: rotate(45deg);
     animation: turnhead .4s cubic-bezier(.68,-0.55,.27,1.55) 5s 1 forwards;
 }
 
@@ -89,6 +90,14 @@ main:after {
     clip-path: polygon(0 100%, 100% 77%, 100% 100%);
 }
 
+.thumbnail-trigger {
+    flex: 1 0 auto;
+    position: relative;
+    max-width: 420px;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
 .thumbnail-trigger > img {
     /* needs min-width to work correctly with webkit */
     min-width: 100%;
@@ -100,14 +109,6 @@ main:after {
 
 .thumbnail-trigger > img:hover {
     filter: grayscale(0);
-}
-
-.thumbnail-trigger {
-    flex: 1 1 auto;
-    position: relative;
-    max-width: 50%;
-    overflow: hidden;
-    cursor: zoom-in;
 }
 
 p {
