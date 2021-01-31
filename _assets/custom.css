@@ -176,6 +176,11 @@ footer {
         padding-top: 3vw;
     }
 
+    .thumbnail-trigger.last-image > img {
+        height: 40vh;
+        object-position: bottom right;
+    }
+
     footer > h3 {
         font-size: .8rem;
     }
