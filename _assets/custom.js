@@ -1,2 +1,2 @@
-var images = $('.main-image').length
+var images = $('.thumbnail-trigger').length
 $('.image-counter').text(images);

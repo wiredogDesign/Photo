@@ -1,1 +1,1 @@
-var images=$(".main-image").length;$(".image-counter").text(images);
+var images=$(".thumbnail-trigger").length;$(".image-counter").text(images);
