@@ -104,12 +104,14 @@ main:after {
     height: 25vh;
     object-fit: cover;
     vertical-align: middle;
-    filter: grayscale(100%) invert(100%) sepia(100%) hue-rotate(320deg) brightness(0.7);
-    transition: filter .5s ease;
+    filter: blur(0) grayscale(100%);
+    transform: scale(100%);
+    transition: filter .5s ease, transform .4s ease;
 }
 
 .thumbnail-trigger > img:hover {
-    filter: grayscale(0);
+    filter: blur(3px) grayscale(0);
+    transform: scale(105%);
 }
 
 p {
@@ -119,8 +121,8 @@ p {
     margin: -5px 0 1px; 
     /* padding-left: 0.3rem; */
     font-variation-settings: "wght" 500;
-    background: white;
-    color: white;
+    background: hsla(0, 0%, 100%, 0.6);
+    /* color: white; */
     /* box-shadow: 0px -7px 15px 0px var(--shadow); */
     transition: bottom 0.4s ease-in-out, color 0.75s ease-in-out
 }
