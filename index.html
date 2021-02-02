@@ -1,27 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photographs May Not Be Important</title>
-    <link rel="stylesheet" href="dist/css/mavo-min.css">
-    <link rel="stylesheet" href="dist/css/custom-min.css">
-    <script src="dist/js/mavo-min.js"></script>
-</head>
-<body mv-app="portfolio" mv-storage="https://github.com/wiredogDesign/photo">
-    <header>
-        <div class="logo-container"></div>
-        <h1>apropos of nowt</h1>
-    </header>
-    <main>
-    <!-- photos uploaded to wiredogDesign/photo/images -->
-        <a property="photo" typeof="Photo" mv-multiple mv-attribute="none">
-          <img property="image" mv-upload-path="dist/img"/>
-          <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
-        </a>
-    </main>
-    <footer>
-        <h3>meaningful mechanics by mavo ⦿ wavering willfulness by wiredog</h3>
-    </footer>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>These Photographs Are Not Important</title>
+        <link rel="stylesheet" href="dist/css/custom-min.css" />
+        <link rel="stylesheet" href="dist/css/fancybox-min.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-container"></div>
+            <h1><span class="image-counter"></span>&nbsp; reasons to be cheerful</h1>
+            <aside class="info">
+                I am not responsible for the phrase <i>"cats are not important"</i>, and find cats to be mostly friendly and entertaining.<br>
+                The culprit for this trumpian-level fib lies with an American artist known as <i>"Viktor IV"</i>, who lived in Amsterdam.<br>
+                More info (if you speak Dutch) <a href="http://viktoriv.nl/">here</a>
+            </aside>
+        </header>
+        <main class="gallery">
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF0896.jpg" data-fancybox="gallery" data-caption="god / dog connection">
+                <img src="dist/img/small/DSCF0896.jpg" alt="" title="" />
+                <p>god / dog connection</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF3041.jpg" data-fancybox="gallery" data-caption="intimidation">
+                <img src="dist/img/small/DSCF3041.jpg" alt="" title="" />
+                <p>intimidation</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF3108.jpg" data-fancybox="gallery" data-caption="meet the parents">
+                <img src="dist/img/small/DSCF3108.jpg" alt="" title="" />
+                <p>meet the parents</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF3399.jpg" data-fancybox="gallery" data-caption="race for life">
+                <img src="dist/img/small/DSCF3399.jpg" alt="" title="" />
+                <p>race for life</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF4118.jpg" data-fancybox="gallery" data-caption="no longer in touch">
+                <img src="dist/img/small/DSCF4118.jpg" alt="" title="" />
+                <p>no longer in touch</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF4274.jpg" data-fancybox="gallery" data-caption="vegetable anticipation">
+                <img src="dist/img/small/DSCF4274.jpg" alt="" title="" />
+                <p>vegetable anticipation</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF4299.jpg" data-fancybox="gallery" data-caption="no hiding place">
+                <img src="dist/img/small/DSCF4299.jpg" alt="" title="" />
+                <p>no hiding place</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5526.jpg" data-fancybox="gallery" data-caption="park life">
+                <img src="dist/img/small/DSCF5526.jpg" alt="" title="" />
+                <p>park life</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF4945.jpg" data-fancybox="gallery" data-caption="terrier trinity">
+                <img src="dist/img/small/DSCF4945.jpg" alt="" title="" />
+                <p>terrier trinity</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5097.jpg" data-fancybox="gallery" data-caption="the comedy of dogs">
+                <img src="dist/img/small/DSCF5097.jpg" alt="" title="" />
+                <p>the comedy of dogs</p>
+            </a>
+
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5666.jpg" data-fancybox="gallery" data-caption="kickback">
+                <img src="dist/img/small/DSCF5666.jpg" alt="" title="" />
+                <p>kickback</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5783.jpg" data-fancybox="gallery" data-caption="captivated">
+                <img src="dist/img/small/DSCF5783.jpg" alt="" title="" />
+                <p>captivated</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_2440.jpg" data-fancybox="gallery" data-caption="the old guard">
+                <img src="dist/img/small/lcd_2440.jpg" alt="" title="" />
+                <p>the old guard</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5928.jpg" data-fancybox="gallery" data-caption="the new guard">
+                <img src="dist/img/small/DSCF5928.jpg" alt="" title="" />
+                <p>the new guard</p>
+            </a>
+            
+
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_0646.jpg" data-fancybox="gallery" data-caption="night moves">
+                <img src="dist/img/small/lcd_0646.jpg" alt="" title="" />
+                <p>night moves</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_0752.jpg" data-fancybox="gallery" data-caption="a better life awaits">
+                <img src="dist/img/small/lcd_0752.jpg" alt="" title="" />
+                <p>a better life awaits</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_0781.jpg" data-fancybox="gallery" data-caption="gimme shelter">
+                <img src="dist/img/small/lcd_0781.jpg" alt="" title="" />
+                <p>gimme shelter</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_1470.jpg" data-fancybox="gallery" data-caption="distaste">
+                <img src="dist/img/small/lcd_1470.jpg" alt="" title="" />
+                <p>distaste</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_1927.jpg" data-fancybox="gallery" data-caption="virtual friend">
+                <img src="dist/img/small/lcd_1927.jpg" alt="" title="" />
+                <p>virtual friend</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_2313.jpg" data-fancybox="gallery" data-caption="shower head">
+                <img src="dist/img/small/lcd_2313.jpg" alt="" title="" />
+                <p>shower head</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/lcd_2912.jpg" data-fancybox="gallery" data-caption="(un)concerned">
+                <img src="dist/img/small/lcd_2912.jpg" alt="" title="" />
+                <p>(un)concerned</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF8878.jpg" data-fancybox="gallery" data-caption="has fun stopped">
+                <img src="dist/img/small/DSCF8878.jpg" alt="" title="" />
+                <p>has fun stopped</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF8689.jpg" data-fancybox="gallery" data-caption="a-frame">
+                <img src="dist/img/small/DSCF8689.jpg" alt="" title="" />
+                <p>a-frame</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF8571.jpg" data-fancybox="gallery" data-caption="dust dog">
+                <img src="dist/img/small/DSCF8571.jpg" alt="" title="" />
+                <p>dust dog</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF8445.jpg" data-fancybox="gallery" data-caption="unreal dog">
+                <img src="dist/img/small/DSCF8445.jpg" alt="" title="" />
+                <p>unreal dog</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/weiner.jpg" data-fancybox="gallery" data-caption="can we please go home">
+                <img src="dist/img/small/weiner.jpg" alt="" title="" />
+                <p>can we please go home</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF7059.jpg" data-fancybox="gallery" data-caption="siesta">
+                <img src="dist/img/small/DSCF7059.jpg" alt="" title="" />
+                <p>siesta</p>
+            </a>
+
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF4575.jpg" data-fancybox="gallery" data-caption="a friend in need...">
+                <img src="dist/img/small/DSCF4575.jpg" alt="" title="" />
+                <p>a friend in need...</p>
+            </a>
+            
+            <a class="thumbnail-trigger" href="dist/img/large/DSCF5417.jpg" data-fancybox="gallery" data-caption="brown-eyed girl">
+                <img src="dist/img/small/DSCF5417.jpg" alt="" title="" />
+                <p>brown-eyed girl</p>
+            </a>
+
+            <!-- the cat image has to be last and ideally full width and height -->
+            <a class="thumbnail-trigger last-image" href="dist/img/large/DSCF3710.jpg" data-fancybox="gallery" data-caption="blue-eyed boy">
+                <img src="dist/img/small/DSCF3710.jpg" alt="" title="" />
+                <p>blue-eyed boy</p>
+            </a>
+        </main>
+        <footer>
+            <h3>global generosity by github ⦿ wavering willfulness by wiredog</h3>
+        </footer>
+        <script src="dist/js/jquery-min.js"></script>
+        <script src="dist/js/fancybox-min.js"></script>
+        <script src="dist/js/custom-min.js"></script>
+    </body>
 </html>
