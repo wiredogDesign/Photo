@@ -3,8 +3,7 @@
     --grey-mid: hsl(0, 0%, 60%);
     --grey-dark:hsl(0, 0%, 40%);
     --black:    hsl(0, 0%, 20%);
-    --cream:    hsl(36, 100%, 97%);
-    --shadow:   hsla(0, 0%, 27%, .5);
+    --shadow:   hsla(0, 0%, 27%,black .5);
     --limpid:   hsla(0, 0%, 100%, 0.6);
 }
 
@@ -68,6 +67,10 @@ h1 span {
     -webkit-text-stroke-color: var(--red);
 }
 
+a {
+    color: var(--red);
+}
+
 .info {
     position: absolute;
     top: 0;
@@ -81,8 +84,22 @@ h1 span {
     background: no-repeat 0 0 / cover url('../../dist/gfx/viktorIV.jpg'), var(--limpid);
     background-blend-mode: screen;
     box-shadow: -5px -3px 6px 0 var(--shadow);
-    font-family: monospace;
-    font-size: clamp(12px, 2vh, 2rem);
+    font-size: clamp(12px, 2.3vh, 2.3rem);
+}
+
+.info::after {
+	content: 'click me';
+    position: absolute;
+    top: 0px;
+    left: -79px;
+	width: 8rem;
+	height: 1rem;
+	transform: rotate(-90deg);
+	color: white;
+}
+
+.info p {
+	padding-bottom: 0.4rem;
 }
 
 .show-info {
@@ -141,7 +158,7 @@ main:after {
     object-position: bottom right;
 }
 
-p {
+.thumbnail-trigger p {
     position: absolute;
     bottom: -10rem;
     width: 100%;
