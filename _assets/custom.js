@@ -4,6 +4,6 @@ $('.image-counter').text(images);
 
 
 $('.info').click(function (e) { 
-    e.preventDefault();
+    // e.preventDefault();
     $('.info').toggleClass('show-info');
 });

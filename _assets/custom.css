@@ -74,13 +74,16 @@ h1 span {
     top: 0;
     right: 20px;
     width: 30vw;
+    height: 100%;
     padding: 0.7rem;
     border-left: 20px solid var(--red);
-    border-bottom-left-radius: 10%;
+    /* border-bottom-left-radius: 10%; */
     transform: translateX(100%);
     transition: transform .5s ease;
-    background: var(--limpid);
-    box-shadow: -3px 3px 8px 0 var(--shadow);
+    background: no-repeat 0 0 / cover url('../../dist/gfx/viktorIV.jpg'), var(--limpid);
+    background-blend-mode: screen;
+    box-shadow: -5px -3px 6px 0 var(--shadow);
+    font: 1rem monospace;
 }
 
 .show-info {

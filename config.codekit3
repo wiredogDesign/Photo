@@ -128,6 +128,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/dist/gfx/viktorIV.jpg": {
+		"ft": 16384,
+		"iS": 69181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/gfx/viktorIV.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/dist/img": {
 		"ft": 65536,
 		"oA": 1,
