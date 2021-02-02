@@ -149,7 +149,7 @@ p {
     margin: -5px 0 1px; 
     /* padding-left: 0.3rem; */
     font-variation-settings: "wght" 500;
-    background: var(--limpid);
+    background: white;
     /* color: white; */
     /* box-shadow: 0px -7px 15px 0px var(--shadow); */
     transition: bottom 0.4s ease-in-out, color 0.75s ease-in-out
