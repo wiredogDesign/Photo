@@ -88,13 +88,11 @@ a {
 }
 
 .info::after {
-	content: 'click me';
+	content: '*';
     position: absolute;
     top: 0px;
-    left: -79px;
-	width: 8rem;
-	height: 1rem;
-	transform: rotate(-90deg);
+    left: -17px;
+    font-size: 2rem;
 	color: white;
 }
 
