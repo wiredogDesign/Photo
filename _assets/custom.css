@@ -1,10 +1,11 @@
 :root {
-    --red:      hsl(348, 100%, 50%);
-    --grey-mid: hsl(0, 0%, 60%);
-    --grey-dark:hsl(0, 0%, 40%);
-    --black:    hsl(0, 0%, 20%);
-    --shadow:   hsla(0, 0%, 27%,black .5);
-    --limpid:   hsla(0, 0%, 100%, 0.6);
+    --red:          hsl(348, 50%, 50%);
+    --grey-darker:  hsl(0, 0%, 67%);
+    --grey-mid:     hsl(0, 0%, 60%);
+    --grey-dark:    hsl(0, 0%, 40%);
+    --black:        hsl(0, 0%, 20%);
+    --shadow:       hsla(0, 0%, 27%,black .5);
+    --limpid:     hsla(0, 0%, 100%, 0.6);
 }
 
 @keyframes turnhead {
@@ -56,15 +57,18 @@ h1 {
     font-size: 6vw;
     font-variation-settings: "wght" 800;
     font-style: italic;
-    -webkit-text-stroke: 0.06rem var(--black);
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -0.9vw;
+    color: var(--grey-mid);
+    text-shadow: 2px 2px 0px var(--limpid), -2px 2px 0px var(--limpid), 2px -2px 0px var(--limpid), -2px -2px 0px var(--limpid);
+    /* -webkit-text-stroke: 0.06rem var(--black);
+    -webkit-text-fill-color: transparent; */
+    letter-spacing: -0.6vw;
 }
 
 h1 span {
     letter-spacing: 0;
-    font-size: 97%;
-    -webkit-text-stroke-color: var(--red);
+    font-size: 70%;
+    /* -webkit-text-stroke-color: var(--red); */
+    text-shadow: 2px 2px 1px var(--red), -2px 2px 1px var(--red), 2px -2px 1px var(--red), -2px -2px 1px var(--red);
 }
 
 a {
