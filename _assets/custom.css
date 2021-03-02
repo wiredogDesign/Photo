@@ -87,6 +87,15 @@ a {
 	padding-bottom: 0.4rem;
 }
 
+.info img {
+    width: 8vw;
+    height: 8vw;
+    margin-right: 1em;
+    float: left;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+}
+
 .show-info {
     transform: translateX(20px);
 }
