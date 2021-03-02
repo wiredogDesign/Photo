@@ -1,6 +1,5 @@
 :root {
     --red:          hsl(348, 50%, 50%);
-    --grey-darker:  hsl(0, 0%, 67%);
     --grey-mid:     hsl(0, 0%, 60%);
     --grey-dark:    hsl(0, 0%, 40%);
     --black:        hsl(0, 0%, 20%);
@@ -199,6 +198,7 @@ footer {
 
     header {
         height: 40vh;
+        padding-top: .5em;
         background-size: 100%;
     }
 
@@ -229,6 +229,7 @@ footer {
 
     header {
         height: 65vh;
+        padding-top: .5em;
         background-size: 120%;
         background-position: -20vw -15vh;
     }
