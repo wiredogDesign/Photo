@@ -5,7 +5,7 @@
     --grey-dark:    hsl(0, 0%, 40%);
     --black:        hsl(0, 0%, 20%);
     --shadow:       hsla(0, 0%, 27%,black .5);
-    --limpid:     hsla(0, 0%, 100%, 0.6);
+    --limpid:     hsla(0, 0%, 100%, 0.8);
 }
 
 @keyframes turnhead {
@@ -39,36 +39,19 @@ header {
     display: flex;
     height: 50vh;
     padding: 1em;
+    overflow: hidden;
     background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
 }
 
 .logo-container {
     position: sticky;
-    top: 1em;
+    top: 0;
     width: 10vw; 
     height: 10vw;
     background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
+    filter: drop-shadow(0 0 6px black);
     transform: rotate(45deg);
     animation: turnhead .4s cubic-bezier(.68,-0.55,.27,1.55) 5s 1 forwards;
-}
-
-h1 {
-    padding: 1vw 0 0 3vw;
-    font-size: 6vw;
-    font-variation-settings: "wght" 800;
-    font-style: italic;
-    color: var(--grey-mid);
-    text-shadow: 2px 2px 0px var(--limpid), -2px 2px 0px var(--limpid), 2px -2px 0px var(--limpid), -2px -2px 0px var(--limpid);
-    /* -webkit-text-stroke: 0.06rem var(--black);
-    -webkit-text-fill-color: transparent; */
-    letter-spacing: -0.6vw;
-}
-
-h1 span {
-    letter-spacing: 0;
-    font-size: 70%;
-    /* -webkit-text-stroke-color: var(--red); */
-    text-shadow: 2px 2px 1px var(--red), -2px 2px 1px var(--red), 2px -2px 1px var(--red), -2px -2px 1px var(--red);
 }
 
 a {
@@ -85,7 +68,7 @@ a {
     border-left: 20px solid var(--red);
     transform: translateX(100%);
     transition: transform .5s ease;
-    background: no-repeat 0 0 / cover url('../../dist/gfx/viktorIV.jpg'), var(--limpid);
+    background: var(--limpid);
     background-blend-mode: screen;
     box-shadow: -5px -3px 6px 0 var(--shadow);
     font-size: clamp(12px, 2.3vh, 2.3rem);
@@ -203,12 +186,11 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) and (orientation: portrait) {
 
     header {
-        height: 37vh;
-        background-position: 0 0;
-        background-size: 120%;
+        height: 40vh;
+        background-size: 100%;
     }
 
     .logo-container {
@@ -231,5 +213,14 @@ footer {
 
     footer > h3 {
         font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+
+    header {
+        height: 65vh;
+        background-size: 120%;
+        background-position: -20vw -15vh;
     }
 }
