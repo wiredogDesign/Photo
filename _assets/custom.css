@@ -3,8 +3,8 @@
     --grey-mid:     hsl(0, 0%, 60%);
     --grey-dark:    hsl(0, 0%, 40%);
     --black:        hsl(0, 0%, 20%);
-    --shadow:       hsla(0, 0%, 27%,black .5);
-    --limpid:     hsla(0, 0%, 100%, 0.8);
+    --shadow:       hsla(0, 0%, 27%, 0.35);
+    --limpid:       hsla(0, 0%, 100%, 0.8);
 }
 
 @keyframes turnhead {
@@ -69,7 +69,7 @@ a {
     transition: transform .5s ease;
     background: var(--limpid);
     background-blend-mode: screen;
-    box-shadow: -5px -3px 6px 0 var(--shadow);
+    box-shadow: -5px -3px 8px 0 var(--shadow);
     font-size: clamp(12px, 2.3vh, 2.3rem);
 }
 
@@ -134,16 +134,16 @@ main:after {
 .thumbnail-trigger > img {
     /* needs min-width to work correctly with webkit */
     min-width: 100%;
-    height: 25vh;
+    height: 34vh;
     object-fit: cover;
     vertical-align: middle;
-    filter: blur(1px) grayscale(100%);
+    filter: blur(1px) sepia(1) hue-rotate(320deg) saturate(1.8);
     transform: scale(100%);
     transition: filter .2s linear, transform .2s linear;
 }
 
 .thumbnail-trigger > img:hover {
-    filter: blur(0px) grayscale(0);
+    filter: blur(0) sepia(0) hue-rotate(0deg);
     transform: scale(105%);
 }
 
