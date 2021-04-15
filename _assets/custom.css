@@ -64,7 +64,7 @@ a {
     width: 30vw;
     height: 100%;
     padding: 0.7rem;
-    border-left: 45px solid var(--red);
+    border-left: 45px solid white;
     transform: translateX(100%);
     transition: transform .5s ease;
     background: var(--limpid);
@@ -77,9 +77,9 @@ a {
 	content: '*';
     position: absolute;
     top: 0px;
-    left: -30px;
-    font-size: 2rem;
-	color: white;
+    left: -33px;
+    font-size: 3rem;
+	color: var(--red);
 }
 
 .info p {
