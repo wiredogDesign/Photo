@@ -219,6 +219,10 @@ footer {
         display: none;
     }
 
+    .thumbnail-trigger {
+        max-width: 100%;
+    }
+
     .thumbnail-trigger.last-image > img {
         height: 40vh;
         object-position: bottom right;
