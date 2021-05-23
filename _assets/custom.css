@@ -191,10 +191,11 @@ footer {
 	border: 3px solid var(--red) !important;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 660px) {
 
     .thumbnail-trigger > img  { 
         padding: .1rem;
+        height: 20vh;
     }
 }
 
