@@ -137,13 +137,13 @@ main:after {
     height: 34vh;
     object-fit: cover;
     vertical-align: middle;
-    filter: blur(1px) sepia(1) hue-rotate(320deg) saturate(1.8);
+    filter: saturate(.5);
     transform: scale(100%);
     transition: filter .2s linear, transform .2s linear;
 }
 
 .thumbnail-trigger > img:hover {
-    filter: blur(0) sepia(0) hue-rotate(0deg);
+    filter: saturate(1);
     transform: scale(105%);
 }
 
