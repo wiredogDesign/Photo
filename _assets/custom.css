@@ -38,7 +38,7 @@ header {
     display: flex;
     height: 50vh;
     padding: 1em;
-    overflow: hidden;
+    /* overflow: hidden; stops position:sticky from working */
     background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
 }
 
@@ -57,7 +57,7 @@ a {
     color: var(--red);
 }
 
-.info {
+/* .info {
     position: absolute;
     top: 0;
     right: 45px;
@@ -97,13 +97,13 @@ a {
 
 .show-info {
     transform: translateX(45px);
-}
+} */
 
 main {
     position: relative;
     display: flex;
     flex-flow: row wrap;
-    gap: .3rem;
+    /* gap: .3rem; doesn't work on safari */
     min-height: 100vh;
     margin: 0 0.4rem;
     padding-top: .4rem;
@@ -125,6 +125,7 @@ main:after {
     flex: 1 0 auto;
     position: relative;
     max-width: 420px;
+    margin: .2vh;
     overflow: hidden;
     cursor: zoom-in;
     color: inherit;
@@ -138,13 +139,13 @@ main:after {
     object-fit: cover;
     vertical-align: middle;
     filter: saturate(.5);
-    transform: scale(100%);
+    transform: scale(1, 1); /* needs two values for safari - not percent */
     transition: filter .2s linear, transform .2s linear;
 }
 
 .thumbnail-trigger > img:hover {
     filter: saturate(1);
-    transform: scale(105%);
+    transform: scale(1.05, 1.05);
 }
 
 .thumbnail-trigger.last-image > img {
