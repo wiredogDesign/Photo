@@ -1,7 +1,7 @@
 {
-    "short_name": "These Photos Are Not Important",
+    "short_name": "Street Dogs",
     "name": "Street Dogs",
-    "description": "Street photography, but with dogs",
+    "description": "These Photographs Are Not Important",
     "start_url": "https://wiredogdesign.github.io/photo/",
     "scope": "/photo",
     "display": "standalone",
