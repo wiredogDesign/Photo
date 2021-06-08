@@ -1,1 +1,1 @@
-var images=$(".thumbnail-trigger").length;$(".image-counter").text(images),$(".info").click((function(i){$(".info").toggleClass("show-info")}));
+var images=$(".thumbnail-trigger").length;$(".image-counter").text(images),$("footer").click((function(e){$(".info").toggleClass("show-info")}));
