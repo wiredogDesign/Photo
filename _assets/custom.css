@@ -134,6 +134,7 @@ footer {
     overflow: hidden;
 	background: var(--grey-mid);
     color: var(--grey-dark);
+    cursor: pointer;
 }
 
 .info {
@@ -149,11 +150,9 @@ footer {
     font-size: clamp(12px, 2.3vh, 2.3rem);
 }
 
-.info p {
-	padding-bottom: 0.4rem;
-}
-
 .info span {
+    padding-right: .1em;
+    border-top: 5px solid var(--red);
     color: var(--red);
     font-size: 300%;
     line-height: .2;
