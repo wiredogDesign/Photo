@@ -1,6 +1,6 @@
 {
     "short_name": "Dogs",
-    "name": "Dogs In The Street",
+    "name": "Street Dogs",
     "description": "Street photography, but with dogs",
     "start_url": "https://wiredogdesign.github.io/photo/",
     "scope": "/photo",
