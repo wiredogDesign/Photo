@@ -138,24 +138,25 @@ footer {
 }
 
 .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     height: 100%;
     padding: 0.7rem;
     transform: translateY(100%);
     transition: transform .5s ease;
-    background: var(--limpid);
+    background: var(--grey-mid);
     background-blend-mode: screen;
-    box-shadow: -5px -3px 8px 0 var(--shadow);
     font-size: clamp(12px, 2.3vh, 2.3rem);
 }
 
 .info span {
     padding-right: .1em;
-    border-top: 5px solid var(--red);
     color: var(--red);
     font-size: 300%;
-    line-height: .2;
+    line-height: .1;
     vertical-align: bottom;
 }
 
