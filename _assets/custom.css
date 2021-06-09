@@ -61,6 +61,7 @@ main {
     position: relative;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     /* gap: .3rem; doesn't work on safari */
     min-height: 100vh;
     margin: 0 0.4rem;
@@ -206,6 +207,10 @@ footer {
 
     h1 {
         padding-top: 3vw;
+    }
+
+    main {
+        justify-content: initial;
     }
 
     .thumbnail-trigger {
