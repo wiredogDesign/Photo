@@ -69,6 +69,15 @@ main {
     background: white;
 }
 
+/* main:hover .thumbnail-trigger {
+    opacity: .8;
+}
+
+main:hover .thumbnail-trigger:hover {
+    opacity: 1;
+}
+ */
+
 main:after {
     content: '';
     width: 100vw;
